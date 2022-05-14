@@ -1,5 +1,5 @@
-const functionMultiplication = async(...variableNumber) => {
+const Multiplicacao = async(...variableNumber) => {
     return variableNumber.reduce((totalCalculation, currentValue) => totalCalculation * currentValue);
 }
 
-module.exports = functionMultiplication;
+module.exports = Multiplicacao;
